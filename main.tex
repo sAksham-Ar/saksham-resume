@@ -72,6 +72,7 @@
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -85,7 +86,7 @@
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1  \\
+      \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -112,9 +113,10 @@
 
 \begin{center}
     \textbf{\Huge \scshape Saksham Arya} \\ \vspace{1pt}
-    \small 8368297396 $|$ \href{mailto:aryasaksham@gmail.com}{\underline{aryasaksham@gmail.com}} $|$ 
+    \small 8368297396$|$ \href{mailto:aryasaksham@gmail.com}{\underline{aryasaksham@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/saksham-arya-7561861a3/}{\underline{linkedin.com/in/saksham}} $|$
-    \href{https://github.com/sAksham-Ar}{\underline{github.com/saksham}}
+    \href{https://github.com/sAksham-Ar}{\underline{github.com/saksham}}$|$
+    \href{https://saksham-ar.github.io/}{\underline{mywebsite}}
 \end{center}
 
 
@@ -122,24 +124,26 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Indian Institute of Technology}{Kharagppur, West Bengal}
-      {Bachelor of Technology in Chemical Engineering}{July 2019 -- Present}
-    \resumeSubHeadingListEnd
-    {CGPA:9.12/10}
-
-
-%-----------Coursework-----------
-\section{Coursework}
-{(T-Theory,L-Lab)}
-  \resumeSubHeadingListStart
-
+      {Indian Institute of Technology}{Kharagpur, WB}
+      {Bachelor of Technology in Chemical Engineering (CGPA: 9.12/10)}{July 2019 - May 2023}
     \resumeSubheading
-      {Completed}{}
-      {}{}
-      \resumeItemListStart
-        \resumeItem{Programming and Data Structures(T/L)}
-        \resumeItem{Machine Learning for AI(T/L)}
-      \resumeItemListEnd
+      {Delhi Public School}{Delhi}
+      {CBSE (Grade : 94.2\%)}{2017-2019}
+  \resumeSubHeadingListEnd
+
+
+% %-----------EXPERIENCE-----------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Undergraduate Research Assistant}{June 2020 -- Present}
+%       {Texas A\&M University}{College Station, TX}
+%       \resumeItemListStart
+%         \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
+%         \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
+%         \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+%       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
@@ -151,41 +155,70 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 
-    \resumeSubheading
-      {Ongoing}{}
-      {}{}
-      \resumeItemListStart
-        \resumeItem{Algorithms-I(L)}
-    \resumeItemListEnd
+%     \resumeSubheading
+%       {Information Technology Support Specialist}{Sep. 2018 -- Present}
+%       {Southwestern University}{Georgetown, TX}
+%       \resumeItemListStart
+%         \resumeItem{Communicate with managers to set up campus computers used on campus}
+%         \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+%         \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+%     \resumeItemListEnd
 
-    \resumeSubheading
-      {MOOCs}{}
-      {}{}
-      \resumeItemListStart
-        \resumeItem{Algorithms}
-        \resumeItem{Machine Learning}
-        \resumeItem{Deep Learning}
-      \resumeItemListEnd
+%     \resumeSubheading
+%       {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+%       {Southwestern University}{Georgetown, TX}
+%       \resumeItemListStart
+%         \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+%         \resumeItem{Developed a game in Java to test the generated dungeons}
+%         \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+%         \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+%         \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+%         \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+%       \resumeItemListEnd
 
-  \resumeSubHeadingListEnd
+%   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------
 \section{Projects}
-{\textbf{Open Source Projects}}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{song-tune} $|$ \emph{An Alexa skill to play songs from youtube.}}
-          {}
-      \resumeProjectHeading
-          {\textbf{cricketpy} $|$ \emph{View cricket scores,commentary and scorecard from the command line.}}
-          {}
-          \resumeProjectHeading
-          {\textbf{ytstreamer} $|$ \emph{Search and stream Youtube videos from the command line.}}
-          {}
-                   \resumeProjectHeading
-          {\textbf{codeify} $|$ \emph{A discord bot that automatically detects code and formats it and then replies. }}
-         
+          {\textbf{\href{http://spats.in/}{\underline{spAts website}}} $|$ \emph{HTML, CSS, JS,Bootstrap, PHP, MySQL}}{June 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a responsive web application using Bootstrap for Space Technology Students' Society.}
+            \resumeItem{Created a blog page using PHP and MySQL to store the blogs.}
+          \resumeItemListEnd
+           \resumeProjectHeading
+         {\textbf{\href{https://github.com/sAksham-Ar/song-tune}{\underline{song tune}}} $|$ \emph{Python, AWS, ASK, BeautifulSoup}}{December 2020}
+          \resumeItemListStart
+            \resumeItem{Designed an Alexa skill to play music form Youtube.}
+            \resumeItem{The skill uses BeautifulSoup to scrape invidious after it receives input(an artist or a song) from the user and the plays the results on Alexa.}
+          \resumeItemListEnd
+           \resumeProjectHeading
+         {\textbf{\href{https://github.com/sAksham-Ar/Prof_List}{\underline{prof\_list}}} $|$ \emph{Python, Selenium, Pandas}}{December 2020}
+          \resumeItemListStart
+            \resumeItem{Implemented a Python script that gets Professors Name, Field of Interest, E-mail, Website and University from https://inspirehep.net/ and saves them as CSV using Selenium. }
+            \resumeItem{After scraping the website the result is stored as a Pandas Datframe which is saved as a CSV.}
+          \resumeItemListEnd
+           \resumeProjectHeading
+         {\textbf{\href{https://github.com/sAksham-Ar/codeify}{\underline{codeify}}} $|$ \emph{NodeJS, Discord API, HighlightJS}}{December 2020}
+          \resumeItemListStart
+            \resumeItem{Developed an Discord bot which syntax highlights code upon seeing it.}
+            \resumeItem{The bot uses Highlight.js library to check whether the text is  code and which language it is after which it uses Discord's markdown to syntax highlight it.}
+          \resumeItemListEnd
+ \resumeProjectHeading
+         {\textbf{\href{https://github.com/sAksham-Ar/cricketpy}{\underline{cricketpy}}} $|$ \emph{Python, Rich, Beautiful Soup}}{January 2021}
+          \resumeItemListStart
+            \resumeItem{Made an program using Python to view cricket scores,commentary and scorecard from the command line.}
+            \resumeItem{The program uses my library criapi to get the data and displays it using the Rich library.}
+            \resumeItem{Criapi uses BeautifulSoup to scrape the cricbuzz site and convert the data into JSON format.}
+          \resumeItemListEnd
+ \resumeProjectHeading
+         {\textbf{\href{https://github.com/sAksham-Ar/contacx}{\underline{contacx}}} $|$ \emph{Python, Flask, MySQL}}{January 2020}
+          \resumeItemListStart
+            \resumeItem{Created a site using Flask which stores contacts of people IIT KGP sorted by categories Name,Number,Hall,Department and Year. }
+            \resumeItem{The data is store in a MySQL database which can be searched by categories.}
+          \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
@@ -195,13 +228,42 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{:  Python, C/C++, SQL, JavaScript, HTML/CSS} \\
-     \textbf{Frameworks}{: React, Flask, Selenium,Keras} \\
-     \textbf{Developer Tools}{: Git, Heroku, ASK, VS Code,Linux} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib,opencv,BeautifulSoup}
+     \textbf{Languages}{:  Python, C/C++, MySQL,MongoDB, JavaScript, HTML/CSS } \\
+     \textbf{Frameworks}{: React, Node.js, Flask, Selenium} \\
+     \textbf{Developer Tools}{: Git, Heroku, ASK, VS Code} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, OpenCV, BeautifulSoup, Rich, Highlight.js, Discord.js, Bootstrap}
     }}
  \end{itemize}
 
 
 %-------------------------------------------
+
+% %-----------Positions of Responsibility-----------
+\section{Positions of Responsibility}
+  \resumeSubHeadingListStart
+  
+     \resumeSubheading
+      {Core Team Member}{July 2020 -- Present}
+      {Kharagpur Open Source Society}{Kharagpur, WB}
+      \resumeItemListStart
+        \resumeItem{Responsible for smooth conduction of events to familiarize students with open source technologies and philosophy,}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Sub Head}{July 2020 -- Present}
+      {Space Technology Students' Society}{Kharagpur, WB}
+      \resumeItemListStart
+        \resumeItem{Responsible for conduction of India's largest space technology fest, NSSC.}
+        \resumeItem{Member of Web team which maintains the website of the society as well as that of NSSC.}
+      \resumeItemListEnd
+   
+%-------------------------------------------
+
+% %-----------Relevant Coursework-----------
+\section{Relevant Coursework}
+ \textbf{University}{:  Programming and Data Structures, Algorithms Lab, Image Processing, Machine Learning for AI } \\
+\textbf{MOOC}{: Machine Learning, Deep Learning Specialization, Algorithm Specialization} 
+
+%-------------------------------------------
+
 \end{document}
